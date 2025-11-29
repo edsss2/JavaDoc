@@ -2,6 +2,14 @@ package main;
 
 public class TesteCalculadora {
 
+    /**
+     * @author Edson
+     * 
+     * 
+     * @param args parametro padão para rodar uma classe main
+     * Essa classe serve para o teste da classe calculadora, e printa na tela o resultado dos teste
+     * 
+     */
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
 

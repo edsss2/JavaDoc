@@ -34,21 +34,33 @@ public class Calculadora {
     }
 
     /**
-     * Preencher com o devido comentário
+     * Subtrai dois números inteiros.
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da subtração de {@code a} e {@code b}
      */
     public int subtrair(int a, int b) {
         return a - b;
     }
 
     /**
-     * Preencher com o devido comentário
+     * Multiplica dois números inteiros.
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da multiplicação de {@code a} e {@code b}
      */
     public int multiplicar(int a, int b) {
         return a * b;
     }
 
     /**
-     * Preencher com o devido comentário
+     * Divide dois números inteiros.
+     * 
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da divisão de {@code a} e {@code b}
      */
     public int dividir(int a, int b) {
         if (b == 0) {
